@@ -6,6 +6,10 @@ My work spans the full RTL-to-GDS stack: writing synthesizable SystemVerilog, ru
 
 Currently targeting roles in **digital design, DV, and physical design** at AI chip companies.
 
+**HDLs:** ![SystemVerilog](https://img.shields.io/badge/SystemVerilog-IEEE%201800-0057B7?style=flat-square) ![Verilog](https://img.shields.io/badge/Verilog-HDL-0057B7?style=flat-square)  
+**EDA:** ![Cadence Genus](https://img.shields.io/badge/Cadence-Genus%20%26%20Innovus-DC143C?style=flat-square) ![OpenLane2](https://img.shields.io/badge/OpenLane2-Open%20PDK-2ECC40?style=flat-square) ![Yosys](https://img.shields.io/badge/Yosys-Synthesis-2ECC40?style=flat-square) ![ModelSim](https://img.shields.io/badge/ModelSim-Simulation-9B59B6?style=flat-square) ![Quartus](https://img.shields.io/badge/Quartus%20Prime-FPGA-0078D4?style=flat-square)  
+**Languages:** ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![TCL](https://img.shields.io/badge/TCL-EDA%20Scripting-E85533?style=flat-square) ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
+
 ---
 
 ## Projects
