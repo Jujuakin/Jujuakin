@@ -7,8 +7,8 @@ My work spans the full RTL-to-GDS stack: writing synthesizable SystemVerilog, ru
 Currently targeting roles in **digital design, DV, and physical design** at AI chip companies.
 
 **HDLs:** ![SystemVerilog](https://img.shields.io/badge/SystemVerilog-IEEE%201800-0057B7?style=flat-square) ![Verilog](https://img.shields.io/badge/Verilog-HDL-0057B7?style=flat-square)  
-**EDA:** ![Cadence Genus](https://img.shields.io/badge/Cadence-Genus%20%26%20Innovus-DC143C?style=flat-square) ![OpenLane2](https://img.shields.io/badge/OpenLane2-Open%20PDK-2ECC40?style=flat-square) ![Yosys](https://img.shields.io/badge/Yosys-Synthesis-2ECC40?style=flat-square) ![ModelSim](https://img.shields.io/badge/ModelSim-Simulation-9B59B6?style=flat-square) ![Quartus](https://img.shields.io/badge/Quartus%20Prime-FPGA-0078D4?style=flat-square)  
-**Languages:** ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![TCL](https://img.shields.io/badge/TCL-EDA%20Scripting-E85533?style=flat-square) ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
+**EDA:** ![Cadence Genus](https://img.shields.io/badge/Cadence-Genus%20%26%20Innovus-DC143C?style=flat-square) ![OpenLane2](https://img.shields.io/badge/OpenLane2-Open%20PDK-2ECC40?style=flat-square) ![Yosys](https://img.shields.io/badge/Yosys-Synthesis-2ECC40?style=flat-square) ![ModelSim](https://img.shields.io/badge/ModelSim-Simulation-9B59B6?style=flat-square) ![Quartus](https://img.shields.io/badge/Quartus%20Prime-FPGA-0078D6?style=flat-square)  
+**Languages:** ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![TCL](https://img.shields.io/badge/TCL-EDA%20Scripting-E86533?style=flat-square) ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
 
 ---
 
@@ -21,10 +21,10 @@ Hierarchical 32-bit ALU supporting 14 operations, taken through a complete profe
 
 ---
 
-### ⚡ [RISC-V RV32I Processor](https://github.com/Jujuakin/riscv-processor) *(coming soon)*
-Pipelined RV32I core in SystemVerilog, hardened to GDS via OpenLane2 on the SKY130 PDK. Includes OpenSTA timing analysis and simulation waveforms.
+### ⚡ [RISC-V RV32IM\_Zicsr Processor](https://github.com/Jujuakin/riscv-3stage)
+3-stage pipelined RV32IM\_Zicsr core in SystemVerilog — full M-extension (MUL/DIV/REM), CSR file, WB→DE forwarding, custom assembler and reference ISS. Verified end-to-end with four self-checking programs; Yosys netlist generated.
 
-`SystemVerilog` `OpenLane2` `SKY130` `RISC-V`
+`SystemVerilog` `Yosys` `RISC-V` `Icarus Verilog`
 
 ---
 
@@ -69,7 +69,7 @@ Adapting the 32-bit ALU for the TinyTapeout TTSKY26c shuttle (SKY130, deadline S
 
 - **OpenLane2 setup** for RTL-to-GDS flows on SKY130 (RISC-V core + ALU TinyTapeout port)
 - **TinyTapeout TTSKY26c** submission — adapting the 32-bit ALU to the SKY130 tile interface
-- **RV32I pipeline** — heading toward adding M (multiply) extension and a custom MAC instruction for neural network workloads
+- **RV32IM\_Zicsr pipeline** — extending toward a MAC instruction for neural network workloads and OpenLane2 GDS hardening
 - **Open-source contribution** — scoping a good-first-issue in OpenLane2 or Yosys
 
 ---
