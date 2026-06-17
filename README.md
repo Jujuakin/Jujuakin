@@ -1,8 +1,8 @@
 # Hi, I'm Emmanuel 👋
 
-**EE grad student at Concordia University (MEng '28) — Digital VLSI, RTL Design, and AI hardware.**
+**EE grad student at the University of Ottawa (MEng '28) — Digital VLSI, RTL Design, and AI hardware.**
 
-I design chips. Not the software that runs on them — the chips themselves. My work spans the full RTL-to-GDS stack: writing synthesizable SystemVerilog, running physical design flows through OpenLane2 and Cadence, and targeting open silicon shuttles. I'm particularly interested in AI accelerator architecture and the tooling that makes open-source silicon practical.
+My work spans the full RTL-to-GDS stack: writing synthesizable SystemVerilog, running physical design flows through OpenLane2 and Cadence, and targeting open silicon shuttles. I'm particularly interested in AI accelerator architecture and the tooling that makes open-source silicon practical.
 
 Currently targeting roles in **digital design, DV, and physical design** at AI chip companies.
 
@@ -72,7 +72,7 @@ Adapting the 32-bit ALU for the TinyTapeout TTSKY26c shuttle (SKY130, deadline S
 
 ## Education
 
-**Concordia University** — MEng Electrical Engineering, expected 2028  
+**University of Ottawa** — MEng Electrical Engineering, expected 2028  
 **York University (Lassonde)** — BEng Electrical Engineering
 
 ---
